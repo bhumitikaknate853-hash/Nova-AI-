@@ -1,0 +1,6 @@
+{
+  "name": "NOVA AI",
+  "description": "NOVA AI: An intelligent, futuristic personal AI assistant for Android with voice interaction, 3D animated robot avatar, phone tools, offline mode, web search, and study studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
