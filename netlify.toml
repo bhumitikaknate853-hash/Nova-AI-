@@ -1,0 +1,10 @@
+# NOVA AI is an Android app; Netlify hosts a static download page for it.
+[build]
+  publish = "public"
+  command = "mkdir -p public/downloads public/assets && cp app-release.apk public/downloads/nova-ai.apk && cp app/src/main/res/drawable/nova_hero_banner.jpg public/assets/hero.jpg && cp app/src/main/res/drawable/ic_nova_logo.jpg public/assets/logo.jpg"
+
+[[headers]]
+  for = "/downloads/*.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment; filename=\"nova-ai.apk\""

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOVA AI — Your personal AI assistant for Android</title>
+  <meta name="description" content="NOVA AI: an intelligent, futuristic personal AI assistant for Android with voice interaction, an animated robot avatar, phone tools, offline mode, web search, and a study studio.">
+  <link rel="icon" href="/assets/logo.jpg">
+  <style>
+    :root { --bg:#05060f; --fg:#e8ecff; --muted:#8b93b8; --accent:#7c5cff; --accent2:#00e0c6; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+    .hero { min-height:70vh; display:grid; place-items:center; text-align:center; padding:4rem 1.5rem;
+      background:linear-gradient(180deg,rgba(5,6,15,.55),var(--bg)),url("/assets/hero.jpg") center/cover no-repeat; }
+    .logo { width:96px; height:96px; border-radius:24px; box-shadow:0 0 40px rgba(124,92,255,.5); }
+    h1 { font-size:clamp(2.5rem,7vw,4.5rem); margin:.75rem 0 .25rem; letter-spacing:.08em;
+      background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .tagline { color:var(--muted); font-size:1.15rem; max-width:36rem; margin:0 auto 2rem; }
+    .btn { display:inline-block; padding:.9rem 2rem; border-radius:999px; font-weight:600; color:#fff; text-decoration:none;
+      background:linear-gradient(90deg,var(--accent),#5a3cf0); box-shadow:0 8px 30px rgba(124,92,255,.4); }
+    .btn:hover { filter:brightness(1.1); }
+    .meta { color:var(--muted); font-size:.85rem; margin-top:.75rem; }
+    main { max-width:960px; margin:0 auto; padding:2rem 1.5rem 4rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+    .card { background:#0d1024; border:1px solid #1d2246; border-radius:16px; padding:1.25rem; }
+    .card h3 { margin:0 0 .35rem; color:var(--accent2); font-size:1.05rem; }
+    .card p { margin:0; color:var(--muted); font-size:.95rem; }
+    h2 { margin-top:3rem; }
+    ol { color:var(--muted); }
+    footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem; border-top:1px solid #1d2246; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <img class="logo" src="/assets/logo.jpg" alt="NOVA AI logo">
+      <h1>NOVA AI</h1>
+      <p class="tagline">An intelligent, futuristic personal AI assistant for Android.</p>
+      <a class="btn" href="/downloads/nova-ai.apk" download>Download for Android</a>
+      <p class="meta">Version 1.0 · APK · Requires Android 7.0 or later</p>
+    </div>
+  </header>
+  <main>
+    <section class="grid" aria-label="Features">
+      <div class="card"><h3>Voice interaction</h3><p>Talk to NOVA naturally and hear it respond.</p></div>
+      <div class="card"><h3>Animated avatar</h3><p>A 3D-styled robot companion that reacts as you chat.</p></div>
+      <div class="card"><h3>Phone tools</h3><p>Handy utilities for everyday tasks on your device.</p></div>
+      <div class="card"><h3>Offline mode</h3><p>A built-in knowledge engine that works without a connection.</p></div>
+      <div class="card"><h3>Web search</h3><p>Look things up without leaving the app.</p></div>
+      <div class="card"><h3>Study studio</h3><p>Learn faster with AI-powered study help.</p></div>
+    </section>
+    <h2>How to install</h2>
+    <ol>
+      <li>Tap <strong>Download for Android</strong> on your phone.</li>
+      <li>Open the downloaded <code>nova-ai.apk</code> file.</li>
+      <li>If prompted, allow installs from this source, then tap <strong>Install</strong>.</li>
+    </ol>
+  </main>
+  <footer>© NOVA AI</footer>
+</body>
+</html>

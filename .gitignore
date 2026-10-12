@@ -16,3 +16,6 @@
 local.properties
 .env
 debug.keystore
+# Generated at build time by netlify.toml
+/public/downloads
+/public/assets
